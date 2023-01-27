@@ -23,44 +23,13 @@
         <div class="container-fluid">
             <img src="1.jpg" alt="shoe" style="width: 50px;height: 50px;">
                <h5 style="color:rgb(247, 100, 3) ;">Hi,Azath</h5>
-              <div class="dropdown">
-                <a class="dropdown-toggle text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Select Brand
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">WoodLand</a></li>
-                  <li><a class="dropdown-item" href="#">Bata</a></li>
-                  <li><a class="dropdown-item" href="#">Adidas</a></li>
-                  <li><a class="dropdown-item" href="#">VKC</a></li>
-                  <li><a class="dropdown-item" href="#">Nike</a></li>
-                  <li><a class="dropdown-item" href="#">Paragaon</a></li>
-                </ul>
-              </div>
-              <div class="dropdown">
-                <a class="dropdown-toggle text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Select Size
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Kids&Children</a></li>
-                  <li><a class="dropdown-item" href="#">Teens&Adults</a></li>
-                </ul>
-              </div>
-              <div class="dropdown">
-                <a class="dropdown-toggle text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Select Price Range
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">₹0-500</a></li>
-                  <li><a class="dropdown-item" href="#">₹501-1000</a></li>
-                  <li><a class="dropdown-item" href="#">₹1001-2000</a></li>
-                </ul>
-              </div>
+              
               
               <form class="d-flex" role="search">
                 <input class="form-control me-2 mt-3" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success mt-3" type="submit">Search</button>
               </form>
-              <a class="btn btn-outline-light" href="modify.html"style="background-color: rgb(247, 100, 0);"><i class="bi bi-plus-circle"></i> </a>
+              <a class="btn btn-outline-light" href="add.html"style="background-color: rgb(247, 100, 0);"><i class="bi bi-plus-circle"></i> </a>
 
               <a class="btn btn-outline-dark" href="index.html"><i class="bi bi-power"></i></a>
                </nav>
@@ -70,26 +39,25 @@
     <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white mt-1">
         <div class="position-sticky">
             <div class="list-group list-group-flush mx-3">
-                <a href="admindashboard.html" class="list-group-item list-group-item-action py-2 list-group-item-danger"
+                <a href="#dashboard" class="list-group-item list-group-item-action-danger py-2 ripple"
                     aria-current="true" style="color: black;">
                     <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                        class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
-                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                
+                <a href="#analytics" class="list-group-item list-group-item-action py-2 ripple"><i
                         class="fas fa-chart-line fa-fw me-3"></i><span>Analytics</span></a>
 
                 <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
                         class="fas fa-chart-bar fa-fw me-3"></i><span>Orders</span></a>
 
-                <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                <a href="products.html" class="list-group-item list-group-item-action py-2 ripple">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-handbag-fill me-3" viewBox="0 0 16 16">
                         <path
                             d="M8 1a2 2 0 0 0-2 2v2H5V3a3 3 0 1 1 6 0v2h-1V3a2 2 0 0 0-2-2zM5 5H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11v1.5a.5.5 0 0 1-1 0V5H6v1.5a.5.5 0 0 1-1 0V5z" />
                     </svg>
                     <!-- <i class="fas fa-building fa-fw me-3"></i>--><span>Products</span></a>
-                <a href="addproducts.html" class="list-group-item list-group-item-action py-2 ripple"><!--<i
+                <a href="add.html" class="list-group-item list-group-item-action py-2 ripple"><!--<i
                         class="fas fa-building fa-fw me-3"></i>-->
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-building-fill-add me-3" viewBox="0 0 16 16">
@@ -98,7 +66,7 @@
                         <path
                             d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z" />
                     </svg><span>Add Products</span></a>
-                <a href="editproducts.html" class="list-group-item list-group-item-action py-2 ripple"><!--<i
+                <a href="edit.html" class="list-group-item list-group-item-action py-2 ripple"><!--<i
                         class="fas fa-building fa-fw me-3"></i>-->
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-pencil-square me-3" viewBox="0 0 16 16">
@@ -107,8 +75,7 @@
                         <path fill-rule="evenodd"
                             d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
                     </svg><span>Edit Products</span></a>
-                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-                        class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
+              
                 <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
                         class="fas fa-users fa-fw me-3"></i><span>Users</span></a>
 
@@ -123,7 +90,7 @@
                <div class="container-fluid">
                 <!-- Page Heading -->
                 <div class="card shadow mb-4" style="height: 30%">
-                    <div class="container">
+                    <div class="container" id="dashboard">
                         <div class="d-sm-flex align-items-center justify-content-between mt-2 mb-4">
                             <h1 style="color: rgb(247, 100, 3) ;">Dashboard</h1>
                         </div>
@@ -216,7 +183,7 @@
                     <div class="col-xl-8 col-lg-7 height: 200%" >
                         <div class="card shadow mb-4" style="height: 100%">
                             <!-- Card Header - Dropdown -->
-                            <div
+                            <div id="analytics"
                                 class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                 <h6 style="color:  rgb(247, 100, 3);">Earnings Overview</h6>
                                
@@ -259,12 +226,7 @@
                           </div>
                         </div>
             </div>
-                
                     </main>
-              
-                             
-               
-              
                 <script src="Chart.min.js"></script>
                 <!-- Page level custom scripts -->
                 <script src="chart-area-demo.js"></script>

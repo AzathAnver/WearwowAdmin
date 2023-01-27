@@ -1,0 +1,157 @@
+<html lang="en" data-theme="dark">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wear Wow</title>
+  
+    <link rel="icon" href="1.jpg"type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="admin.css">
+    <style>
+        a{
+            text-decoration: none;            
+        }
+  </style>
+ 
+</head>
+<body class="bg-white">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " >
+        <div class="container-fluid">
+            <img src="1.jpg" alt="shoe" style="width: 50px;height: 50px;">
+               <h5 style="color:rgb(247, 100, 3) ;">Hi,Azath</h5>
+              
+              
+              <form class="d-flex" role="search">
+                <input class="form-control me-2 mt-3" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success mt-3" type="submit">Search</button>
+              </form>
+
+              <a type="button" class="btn btn-lg btn-outline-dark"
+              style="padding-left: 2.5rem; padding-right: 2.5rem; color: rgb(247, 100, 3);" href="admin.html"><i class="bi bi-house-door-fill"></i></a>
+               </nav>
+    
+        <header>
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white mt-4">
+        <div class="position-sticky">
+            <div class="list-group list-group-flush mx-3">
+                <a href="admin.html" class="list-group-item list-group-item-action-danger py-2 ripple"
+                    aria-current="true" style="color: black;">
+                    <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
+                </a>
+                
+                <a href="admin.html" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-chart-line fa-fw me-3"></i><span>Analytics</span></a>
+
+                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-chart-bar fa-fw me-3"></i><span>Orders</span></a>
+
+                <a href="products.html" class="list-group-item list-group-item-action py-2 ripple">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-handbag-fill me-3" viewBox="0 0 16 16">
+                        <path
+                            d="M8 1a2 2 0 0 0-2 2v2H5V3a3 3 0 1 1 6 0v2h-1V3a2 2 0 0 0-2-2zM5 5H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11v1.5a.5.5 0 0 1-1 0V5H6v1.5a.5.5 0 0 1-1 0V5z" />
+                    </svg>
+                    <!-- <i class="fas fa-building fa-fw me-3"></i>--><span>Products</span></a>
+                <a href="add.html" class="list-group-item list-group-item-action py-2 ripple"><!--<i
+                        class="fas fa-building fa-fw me-3"></i>-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-building-fill-add me-3" viewBox="0 0 16 16">
+                        <path
+                            d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Z" />
+                        <path
+                            d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z" />
+                    </svg><span>Add Products</span></a>
+                <a href="edit.html" class="list-group-item list-group-item-action py-2 ripple"><!--<i
+                        class="fas fa-building fa-fw me-3"></i>-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-pencil-square me-3" viewBox="0 0 16 16">
+                        <path
+                            d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                        <path fill-rule="evenodd"
+                            d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                    </svg><span>Edit Products</span></a>
+              
+                <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-users fa-fw me-3"></i><span>Users</span></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+</header>
+
+ <!--Main layout-->
+ <main >
+  <div class="container pt-4 d-flex flex-column min-vh-100 justify-content-center align-text-center mt-1">
+      <!-- Content Row -->
+      <div class="row ">
+          <div class="col-md-10 mx-auto rounded-2 shadow bg-white">
+              <div class="py-1 mt-5">
+                <center> <h1 style="color: rgb(247, 100, 3) ;">Add Products</h1></center>
+              </div>
+              <form class="m-5" id="Form">
+                  <div class="mb-3 form-group ">
+                      <label for="img">Upload image</label>
+                      <input type="file" id="img" class="form-control">
+                  </div>
+                  <div class="mb-3 form-group ">
+                      <input type="text" id="name" placeholder="Enter name of the product" class="form-control">
+                  </div>
+                  
+                  <div class="mb-3 form-group ">
+                      <input type="text" id="mrp" placeholder="Enter the MRP price" class="form-control">
+                  </div>
+                  <div class="mb-3 form-group ">
+                    <input type="text" id="name" placeholder="Enter size" class="form-control">
+                </div>
+                  <div class="mb-3 form-group ">
+                      <input type="text" id="mkt" placeholder="Enter name of the product company"
+                          class="form-control">
+                  </div>
+                  <div class="mb-3 form-group ">
+                      <input type="text" id="orgin" placeholder="Enter orgin of the product" class="form-control">
+                  </div>
+                  <div class="mb-3 form-group ">
+                      <textarea class="form-control" placeholder="Enter Discription of the product"
+                          id="discription" rows="3"></textarea>
+                  </div>
+                  
+                                 <div class="mb-3 form-group ">
+                      <textarea class="form-control" placeholder="Enter other information of the product"
+                          id="other" rows="3"></textarea>
+                  </div>
+                  <div>
+                      <center><button class="btn btn-danger" onclick="myAlert()">Add Product</button></center>
+                  </div>
+
+              </form>
+          </div>
+
+      </div>
+  </div>
+  
+ 
+</main>
+<!--Main layout-->
+              <br>
+                <div
+                class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-dark">
+                <!-- Copyright -->
+                <div class="text-white mb-3 mb-md-0">
+                  Copyright © 2023. All rights reserved.@Azath
+                </div>
+              </div>
+              <script>
+                         
+                function myAlert() {
+                   alert("Product Updated");
+                }
+                </script>
+     </body>
+</html>
