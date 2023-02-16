@@ -1,0 +1,290 @@
+<html lang="en" data-theme="dark">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART</title>
+    <link rel="icon" href="1.jpg"type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        a{
+            text-decoration: none;            
+        }
+        h5{
+           color: rgb(247, 100, 3);
+        }
+       
+ </style>
+ </head> 
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="1.jpg" alt="shoe" style="width: 50px;height: 50px;">
+              <h5 >Hi,Azath</h5>
+              <h5 >Check your Orders here.....</h5>
+              <a type="button" class="btn btn-lg btn-outline-dark"
+              style="padding-left: 2.5rem; padding-right: 2.5rem; color: rgb(247, 100, 3);" href="home.html"><i class="bi bi-house-door-fill"></i></a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2 mt-3" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success mt-3" type="submit">Search</button>
+              </form>  
+            <a class="btn btn-outline-dark" href="index.html"><i class="bi bi-power">Logout</i></a>
+            </div>
+        </nav>
+        <div class="container-fluid" style="background-image: url(https://images.pexels.com/photos/7289746/pexels-photo-7289746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);background-repeat: no-repeat; background-size: cover;">
+            <div class="container">
+              <section class="gradient-custom">
+                  <div class="container pt-5">
+                      <div class="row d-flex justify-content-center mt-4">
+                          <div class="col-md-8">
+                              <div class="card mb-4">
+                                  <div class="card-header py-3">
+                                      <h5 class="mb-0">Cart - 2 items</h5>
+                                  </div>
+                                  <div class="card-body">
+                                      <!-- Single item -->
+                                      <div class="row">
+                                          <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                              <!-- Image -->
+                                              <div class="bg-image hover-overlay hover-zoom ripple rounded"
+                                                  data-mdb-ripple-color="light">
+                                                  <img src="https://api.lorem.space/image/shoes?w=350&h=275&hash=2750B67FB"class="w-100"/>
+                                                  <a href="#!">
+                                                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)">
+                                                      </div>
+                                                  </a>
+                                              </div>
+                                              <!-- Image -->
+                                          </div>      
+                                          <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                              <!-- Data -->
+                                              <p><strong>WoodLand</strong></p>
+                                              <p style="color: silver;">leather shoes</p>
+                                              <button  type="button"  class="btn-sm me-1 mb-2 btn btn-danger"
+                                                  data-mdb-toggle="tooltip" title="Remove item">
+                                                  <i  class="fas fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-danger btn-sm mb-2"
+                                                  data-mdb-toggle="tooltip" title="Move to the wish list">
+                                                  <i class="fas fa-heart"></i>
+                                              </button>
+                                              <!-- Data -->
+                                          </div> 
+                                          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                              <!-- Quantity -->
+                                              <div class=" mb-4" style="max-width: 300px">      
+                                                  <div class="form-outline d-flex">
+                                                    <button class="btn btn-danger  me-2"
+                                                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                      <i class="fas fa-minus"></i>
+                                                  </button>
+                                                  <div class="form-outline">
+                                                    <input id="form1" min="0" name="quantity" value="1" type="number"
+                                                        class="form-control" />
+                                                    <label class="form-label" for="form1">Quantity</label>
+                                                </div>                                                      
+                                                      <button class="btn btn-danger px-3 ms-2"
+                                                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                      <i class="fas fa-plus"></i>
+                                                  </button>
+                                              </div>
+                                              </div>
+                                              <!-- Quantity -->     
+                                              <!-- Price -->
+                                              <p class="text-start text-md-center">
+                                                  <strong>Rs. 2190</strong>
+                                              </p>
+                                              <!-- Price -->
+                                          </div>
+                                      </div>
+                                      <!-- Single item -->      
+                                      <hr class="my-4" />      
+                                      <!-- Single item -->
+                                      <div class="row">
+                                          <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                              <!-- Image -->                                              
+                                                  <img src="https://api.lorem.space/image/shoes?w=350&h=275&hash=225E6693"
+                                                      class="w-100" />
+                                                  <a href="#!">
+                                                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)">
+                                                      </div>
+                                                  </a>                                              
+                                              <!-- Image -->
+                                          </div>      
+                                          <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                              <!-- Data -->
+                                              <p><strong>Nike</strong></p>
+                                              <p style="color: silver;">jean shoe</p>      
+                                              <button type="button" class="btn btn-danger btn-sm me-1 mb-2"
+                                                  data-mdb-toggle="tooltip" title="Remove item">
+                                                  <i class="fas fa-trash"></i>
+                                              </button>
+                                              <button type="button" class="btn btn-danger btn-sm mb-2"
+                                                  data-mdb-toggle="tooltip" title="Move to the wish list">
+                                                  <i class="fas fa-heart"></i>
+                                              </button>
+                                              <!-- Data -->
+                                          </div>      
+                                          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                              <!-- Quantity -->
+                                              <div class="d-flex mb-4" style="max-width: 300px">
+                                                  <button class="btn btn-danger px-3 me-2"
+                                                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                      <i class="fas fa-minus"></i>
+                                                  </button>
+                                                  <div class="form-outline">
+                                                      <input id="form1" min="0" name="quantity" value="1" type="number"
+                                                          class="form-control" />
+                                                      <label class="form-label" for="form1">Quantity</label>
+                                                  </div>
+                                                  <button class="btn btn-danger px-3 ms-2"
+                                                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                      <i class="fas fa-plus"></i>
+                                                  </button>
+                                              </div>
+                                              <!-- Quantity -->      
+                                              <!-- Price -->
+                                              <p class="text-start text-md-center">
+                                                  <strong>Rs. 1300</strong>
+                                              </p>
+                                              <!-- Price -->
+                                          </div>
+                                      </div>
+                                      <!-- Single item -->
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card mb-4">
+                                  <div class="card-header py-3">
+                                      <h5 class="mb-0">Summary</h5>
+                                  </div>
+                                  <div class="card-body">
+                                      <ul class="list-group list-group-flush">
+                                          <li
+                                              class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                                              Products
+                                              <span>Rs. 320</span>
+                                          </li>
+                                          <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                              Shipping
+                                              <span>Rs. 40</span>
+                                          </li>
+                                          <li
+                                              class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                                              <div>
+                                                  <strong>Total amount</strong>
+                                                  <strong>
+                                                      <p class="mb-0">(including VAT)</p>
+                                                  </strong>
+                                              </div>
+                                              <span><strong>Rs. 360</strong></span>
+                                          </li>
+                                      </ul>
+                                      <a href="Pricing.html" class="btn btn-outline-success " role="button" aria-pressed="true">Buy now</a>      
+                                  </div>
+                              </div>
+                              <div class="card mb-4">
+                                  <div class="card-body">
+                                      <p><strong>Expected shipping delivery</strong></p>
+                                      <p class="mb-0">12.01.2023 - 14.01.2023</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>  
+                  </div>
+              </section>
+            <div class="box-sz" style=" padding:20px 30px;background-color: white;">
+                <h5 > Products related to items in your cart</h5>
+                <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #cfd1cc" class="row box1-sz">
+                  <div style="width: 40% !important;" class="col-md-5">
+                    <img src="https://api.lorem.space/image/shoes?w=350&h=275&hash=9D9539E7">
+                  </div>
+                  <div style="width: 50% !important;" class="col-md-7">
+                   <h6 >NIKE</h6>
+                    <h6 >JEAN shoe</h6>
+                    <h6 >Material type is Jean</h6>
+                    <h6 >Size: 6-12</h6>
+			         <h6 >colour:Black,Blue </h6>
+                    <h6 >Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+                    <h6 ><i class="fa fa-inr" aria-hidden="true"></i>  <span>11067</span></h6>
+                    <a style="margin-top: 8px" class="btn btn-sm btn-danger" href="home.html" role="button">View More</a>
+                  </div>
+                </div>
+                <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE" class="row box1-sz">
+                  <div style="width: 40% !important;" class="col-md-5">
+                    <img  src="https://api.lorem.space/image/shoes?w=350&h=275&hash=BDC01094">
+                  </div>
+                  <div style="width: 60% !important;" class="col-md-7">
+                    <h6 >WOODLAND</h6>
+                    <h6 >Leather shoe</h6>
+                    <h6 >Material type is Leather</h6>
+                    <h6 >Size: 6-12</h6>
+                    <h6 >colour:Black,Blue </h6>
+                    <h6 >Some quick example text to build on the card title and make up the bulk of the card's content.</h6>                    
+                    <h6 ><i class="fa fa-inr" aria-hidden="true"></i>  <span>12045</span></h6>
+                    <a style="margin-top: 8px" class="btn btn-sm btn-danger" href="home.html" role="button">View More</a>
+                  </div>                  
+                </div>                
+              </div>
+            </div>
+            <br>
+        </div>
+  </div>              
+              <footer class=" bg-dark d-flex justify-content-between text-light p-3">
+                <div class="footer-col">
+                  <div class="d-flex">
+                  <img src="1.jpg" alt="shoe" style="width: 50px;height: 50px;">
+                  <h3 class="ms-2"> About Us</h3>
+                  </div>
+                  <br>     
+                  <h6><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill mb-1" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                  </svg> Fantastic Footwears,</h6>
+                  <h6 style="margin-left: 20px;">Erode-638051.</h6>
+                  <div class="d-flex">
+                  <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                  </svg></p>
+                  <h6 class="ms-1">9898988989</h6>
+                </div>
+                  <a class="btn btn-outline-light" href="https://www.google.com/maps/place/Bhai+Shoe+Mart/@11.1644822,77.6039367,19.35z/data=!4m5!3m4!1s0x3ba97486389e8eb9:0xe8479dea7e721f5!8m2!3d11.1643836!4d77.6039359"style="background-color: rgb(247, 100, 0);"><i class="bi bi-geo-fill">Location</i></a>
+                </div>
+                <div class="footer-col">
+                    <h3>Official Patners</h3>
+                    <li><a href="https://www.woodlandworldwide.com/?utm_source=icubeswire&utm_medium=affiliate_214_" class="link" target="_blank" style="color:rgb(247, 100, 3);">WoodLand</a></li>
+                    <br>
+                    <li><a href="https://www.adidas.co.in/eoss?cm_mmc=AdiAffiliates_Xapads-CPS-274--_--_-None-_--_-dv%3AeCom-_-cn%3AAlways_on-_-pc%3Across-category&cm_mmc1=IN&cm_mmc2=adidas-EMEA-eCom-Affiliates-Xapads-CPS-274--IN-2212" class="link" target="_blank" style="color:rgb(247, 100, 0);">Adidas</a></li>
+                    <br>
+                    <li><a href="https://www.nike.com/sg/?cp=76060516106_aff_qKqcOVHts48&ranMID=41134&ranEAID=qKqcOVHts48&ranSiteID=qKqcOVHts48-XIlrUkZCpVz3jydngWDFdA" class="link" target="_blank" style="color:rgb(247, 100, 0);">Nike</a></li>
+                </div>
+                <div class="footer-col">
+                    <h3>Top Products</h3>
+                    <li><a href="https://www.bata.in/campaign/end-of-season-sale/?gclid=EAIaIQobChMI9e2AzaK8_AIVVDUrCh0dvwubEAAYASAAEgJyQfD_BwE" class="link" target="_blank" style="color:rgb(247, 100, 0);">Bata</a></li>
+                    <br>
+                    <li><a href="https://vkcpride.com/" class="link" target="_blank" style="color:rgb(247, 100, 0);">VKC</a></li>
+                    <br>
+                    <li><a href="https://www.paragonfootwear.com/" class="link" target="_blank" style="color:rgb(247, 100, 0);">Paragaon</a></li>
+               </div>
+               <div class="footer-col">
+                    <h3>Contact us</h3>
+                    <p>How do u feel about us!!!!....</p>
+                    <div class="submit d-flex">
+                        <div class="mt-1">
+                          <input type="text" placeholder="FEEDback...">
+                        </div>
+                        <a class="btn btn-sm mt-1 ms-2 btn-outline-light" href="#" style="background-color: rgb(247, 100, 0) ;" onclick="myAlert()" >SUBMIT</a> 
+                    </div>
+                </div>
+            </footer>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+              <script>                         
+                  function myAlert() {
+                     alert("Your report has been submitted");
+                  }                  
+                </script>
+</body>    
+</html>

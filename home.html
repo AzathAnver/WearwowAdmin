@@ -1,6 +1,5 @@
 <html lang="en" data-theme="dark">
 <head>
-  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,8 +19,15 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <img src="1.jpg" alt="shoe" style="width: 50px;height: 50px;">
-            <a type="button" class="btn btn-lg btn-outline-dark"
-            style="padding-left: 2.5rem; padding-right: 2.5rem; color: rgb(247, 100, 3);" href="userLogin.html"><i class="bi bi-person-circle"></i></a>
+               <div class="dropdown-center">
+                <a class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hi,Azath
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="cart.html">My Orders</a></li>
+                  <li><a class="dropdown-item" href="index.html">Log Out</a></li>
+                </ul>
+              </div>
               <div class="dropdown-center">
                 <a class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Select Brand
@@ -39,7 +45,7 @@
                 <a class="btn btn-secondary dropdown-toggle" ; type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Select Size
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu">                  
                   <li><a class="dropdown-item" href="#">Kids&Children</a></li>
                   <li><a class="dropdown-item" href="#">Teens&Adults</a></li>
                 </ul>
@@ -59,24 +65,27 @@
                 <button class="btn btn-outline-success mt-3" type="submit">Search</button>
               </form>             
               <a class="btn btn-outline-dark" href="cart.html"><i class="bi bi-cart-fill"></i></a>
-               </nav>
+              <a class="btn btn-outline-dark" href="index.html" ><i class="bi bi-power">Logout</i></a>
+               </nav>              
                <div class="container-fluid" style="background-image: url(https://images.pexels.com/photos/9660945/pexels-photo-9660945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);background-repeat: no-repeat; background-size: cover;">
-               <br>
-               <div class="row" >
-                <div class="col-sm-3">
-                <div class="card" style="width: 22rem;">
-                  <img src="https://api.lorem.space/image/shoes?w=350&h=275&hash=8B7BCDC2" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title"style="color:rgb(247, 100, 3);">WoodLand</h5>
-                    <p class="card-text"style="color:darkviolet">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="row">  
-                      <h5>Price:₹650</h5>
-                      <h5>Size=6-12</h5>                     
-                      <a class="btn  btn-lg btn-outline-light " href="Pricing.html" style="background-color: rgb(247, 100, 0) ;"> Buy now</i></a>
-                <a class="btn btn-sm-5 btn-lg btn-outline-light" href="cart.html" style="background-color: rgb(247, 100, 0) ;"></i>Add to Cart</a> 
-              </div>    
-              </div>
-                </div>
+                <br>
+                  <div class="row">
+                      <div class="col-sm-3">
+                        <a href="view.html">
+                       <div class="card" style="width: 22rem;">
+                      <img src="https://api.lorem.space/image/shoes?w=350&h=275&hash=8B7BCDC2" class="card-img-top" alt="...">
+                      </a>
+                     <div class="card-body">
+                        <h5 class="card-title"style="color:rgb(247, 100, 3);">WoodLand</h5>
+                      <p class="card-text"style="color:darkviolet">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                    
+                     <div class="row">  
+                      <h5 >Price:₹650</h5>
+                      <h5 >Size=6-12</h5>                     
+                      <a class="btn  btn-lg btn-outline-light " href="Pricing.html" style="background-color: rgb(247, 100, 0) ;"> Buy now</a>
+                       <a class="btn btn-sm-5 btn-lg btn-outline-light" href="cart.html" style="background-color: rgb(247, 100, 0) ;">Add to Cart</a> 
+                  </div>    
+                    </div>
+                    </div>              
               </div>
               <div class="col-sm-3">
                 <div class="card" style="width: 22rem;">
@@ -129,7 +138,8 @@
               <div class="row" >
                 <div class="col-sm-3">
                 <div class="card" style="width: 22rem;">
-                  <img src="https://api.lorem.space/image/shoes?w=350&h=275&hash=9D9539E7" class="card-img-top" alt="...">
+                  <img src="https://api.lorem.space/image/shoes?w=350&h=275&hash=9D9539E7
+                  " class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title"style="color:rgb(247, 100, 3);">WoodLand</h5>
                     <p class="card-text"style="color:darkviolet">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -190,7 +200,7 @@
               </div>              
               </div>
               <br>
-               </div>
+            </div>              
               <footer class="bg-dark d-flex justify-content-between text-light p-3">
         <div class="footer-col">
           <div class="d-flex">
@@ -240,12 +250,7 @@
   </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
       <script>
-          function myFunction() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-          }
-
-          function myAlert() {
+                function myAlert() {
              alert("Your report has been submitted");
           }
         </script>
